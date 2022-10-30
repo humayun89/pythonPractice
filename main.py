@@ -19,3 +19,13 @@ if id_check  == str("yes") and age_check >= 18:
     print("Yes .You can.")
 else:
     print("Sorry you cannot purchase.")
+
+# While loop experiment:
+num = 0
+while num > 100:
+    num = int(num+31)
+    print('num', num)
+# For loop small project to get the series of the numbers using range:
+for x in range (-10000000000000000,1000,1):
+     print("Number = ",x)
+
