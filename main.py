@@ -58,5 +58,10 @@ for i in range(n):
     for j in range(i, -1, -1):
         print(i+1, end=" ")
     print()
-
+#Reverse order :
+n=int(input("Enter the number of raws : "))
+for i in range(n):
+    for j in range(i+1):
+        print(n-i,end=" ")
+    print()
 
