@@ -15,7 +15,7 @@ else:
 # Sale of alchohol to the customer:
 id_check = str(input("Show your id please : "))
 age_check = float(input("age : "))
-if id_check  == str("yes") and age_check >= 18:
+if id_check == str("yes") and age_check >= 18:
     print("Yes .You can.")
 else:
     print("Sorry you cannot purchase.")
@@ -40,4 +40,9 @@ for i in range(1,10,2):
     for j in range(1, i+1 , 2):
         print(j , end = " ")
     print("")
-
+# Again:
+n = int(input("Enter the number of rows you need : "))
+for i in range(n):
+    for j in range(i+1):
+        print(j+1, end=" ")
+    print()
