@@ -52,7 +52,11 @@ for i in range(n):
     for j in range(i, -1, -1):
         print(j+1, end=" ")
     print()
-
-
+# Same thing but different ways:
+n = int(input("Enter the number of the rows : "))
+for i in range(n):
+    for j in range(i, -1, -1):
+        print(i+1, end=" ")
+    print()
 
 
