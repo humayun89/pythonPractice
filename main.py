@@ -26,6 +26,18 @@ while num > 100:
     num = int(num+31)
     print('num', num)
 # For loop small project to get the series of the numbers using range:
-for x in range (-10000000000000000,1000,1):
+for x in range (50,1000,1):
      print("Number = ",x)
+
+#  print the following pattern using for loops:1
+       #  1 3
+       #  1 3 5
+       #  1 3 5 7
+       #  1 3 5 7 9
+       #  Hint : Take a look at the parameter called end  in the print function. Also, note that we need a nested loop here.
+
+for i in range(1,10,2):
+    for j in range(1, i+1 , 2):
+        print(j , end = " ")
+    print("")
 
