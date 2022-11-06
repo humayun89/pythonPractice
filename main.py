@@ -58,10 +58,34 @@ for i in range(n):
     for j in range(i, -1, -1):
         print(i+1, end=" ")
     print()
-#Reverse order :
+# Reverse order :
 n=int(input("Enter the number of raws : "))
 for i in range(n):
     for j in range(i+1):
         print(n-i,end=" ")
     print()
 
+# Again:
+n=int(input("Enter the number of raws :"))
+for i in range (n):
+    for j in range(n-i-1):
+        print(" ",end=" ")
+    for j in range(i+1):
+        print(i+1,end= " ")
+    print()
+# Use of continue and break:
+# Continue is used for skip element or elements and go to run the next one where break stop in where it should be break.
+# continue:
+my_list = [1, 2, "stop", 3.42]
+for current_element in my_list:
+    if current_element == "stop":
+        print("The loop will skip stop !")
+        continue
+    print(current_element)
+# Break:
+my_list=[1,2, "stop",3.42]
+for current_element in my_list:
+    if current_element=="stop":
+        print("The loop will stop for break !")
+        break
+    print(current_element)
