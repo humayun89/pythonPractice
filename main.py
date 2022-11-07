@@ -75,6 +75,7 @@ for i in range (n):
     print()
 # Use of continue and break:
 # Continue is used for skip element in condition , and go to run the next one ;where break stop in before the condition where it should be break.
+
 # continue:
 my_list = [1, 2, "stop", 3.42]
 for current_element in my_list:
@@ -95,3 +96,4 @@ first_list=[1,2, "stop",4.12]
 second_list=[5,7, "now", 9]
 zipped_lists=zip(first_list,second_list)
 print(list(zipped_lists))
+
