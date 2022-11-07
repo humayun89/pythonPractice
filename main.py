@@ -90,7 +90,7 @@ for current_element in my_list:
         break
     print(current_element)
 
-# Zip
+# Zip:
 first_list=[1,2, "stop",4.12]
 second_list=[5,7, "now", 9]
 zipped_lists=zip(first_list,second_list)
