@@ -74,7 +74,7 @@ for i in range (n):
         print(i+1,end= " ")
     print()
 # Use of continue and break:
-# Continue is used for skip element or elements and go to run the next one where break stop in where it should be break.
+# Continue is used for skip element in condition , and go to run the next one ;where break stop in before the condition where it should be break.
 # continue:
 my_list = [1, 2, "stop", 3.42]
 for current_element in my_list:
